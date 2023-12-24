@@ -8,14 +8,14 @@
 
   <Identity
     Name="8defbbb1-97f5-430b-ba7b-4cc8fdeff352"
-    Publisher="CN=Michal"
+    Publisher="CN=kansasdev"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="8defbbb1-97f5-430b-ba7b-4cc8fdeff352" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>PhotoUWP</DisplayName>
-    <PublisherDisplayName>Michal</PublisherDisplayName>
+    <PublisherDisplayName>kansasdev</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -49,7 +49,6 @@
   </Applications>
 
   <Capabilities>
-    <Capability Name="internetClient" />
     <uap:Capability Name="picturesLibrary"/>
   </Capabilities>
 </Package>
